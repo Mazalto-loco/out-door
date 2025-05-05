@@ -1,0 +1,61 @@
+.mission {
+  min-height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15vw;
+  padding-top: 10vh;
+  gap: 15vw;
+}
+.our-mission {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.our-mission h2 {
+  font-family: "montserrat";
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+}
+.our-mission p {
+  color: rgb(95, 95, 95);
+}
+.mission img {
+  object-fit: cover;
+  height: 340px;
+  width: 500px;
+}
+.mission2 {
+  min-height: 55vh;
+  display: flex;
+  padding-left: 15vw;
+}
+.values,
+.extraordinary {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.values {
+  padding-left: 5vw;
+  gap: 1vh;
+}
+.values p {
+  width: 70%;
+}
+.extraordinary p {
+  width: 70%;
+}
+
+.chiante {
+  display: flex;
+  flex-direction: column;
+}
+.chiantes {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.chiantes span {
+  width: 15px;
+}

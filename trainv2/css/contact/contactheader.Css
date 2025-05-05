@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  height: 55vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/img/contact/about-bg-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  color: white;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 150px;
+  height: 42px;
+  margin-top: 1rem;
+  margin-left: 15rem;
+}
+header nav {
+  width: 80%;
+  display: flex;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  margin-top: 15px;
+  align-items: center;
+}
+header li a {
+  color: white;
+}
+button {
+  cursor: pointer;
+  border-radius: 40px;
+  padding: 15px 35px;
+  background-color: #fb2056;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+button:hover {
+  background-color: #8f1130;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+header section {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+header section h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+}
+header section p {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.separator {
+  height: 3px;
+  width: 75px;
+  background-color: #fb2056; /* Même couleur que les boutons */
+  border: none;
+  margin: 2rem 0; /* Espacement vertical */
+}
+
+@media (max-width: 1050px) {
+  header nav ul {
+    display: none;
+  }
+
+  header nav img {
+    margin-left: 5rem;
+  }
+}
